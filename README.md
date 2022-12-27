@@ -1,1 +1,2 @@
-# redy.store
+# REDY
+ e-commerce shop

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of the Page">
+    <meta name="author" content="Rares Burghelea & Eduard Faraon">
+    <!-- End of Meta Tags -->
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/file.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <!-- End of Links -->
+
+    <!-- Title -->
+    <title>Document Title | REDY Store</title>
+    <!-- End of Title -->
+</head>
+
+<body>
+
+    <header>
+        <!-- Nav Bar -->
+        <!-- Logo + Search Bar + Links / Icons -->
+        <!-- TODO: Make it responsive to the screen size -->
+
+        <!-- End of Nav Bar -->
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+
+        <!-- End of Hero Section -->
+
+        <!-- Main Website -->
+
+        <!-- End of Main Website -->
+    </main>
+
+    <footer>
+        <!-- Footer -->
+        <!-- ?Site Map? + Links(Contact, Services, etc.) -->
+        <!-- CopyRight -->
+
+        <!-- End of Footer -->
+    </footer>
+
+</body>
+
+</html>

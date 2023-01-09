@@ -45,6 +45,8 @@ body {
     justify-content: center;
     background-color: var(--accent-color);
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .sign-in fieldset {
@@ -145,4 +147,112 @@ input[name="optAddInfo"] {
 .sign-in .btn:hover {
     border-left: 20px solid var(--primary-color);
     border-right: 20px solid var(--primary-color);
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    left: -25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--secondary-color);
+    transition: all 0.1s cubic-bezier(.84, .35, .15, .9);
+}
+
+.circle:hover {
+    border-radius: 20px;
+}
+
+.spann {
+    width: 100%;
+    top: -50px;
+    left: -125px;
+    position: absolute;
+    height: 100px;
+    z-index: 9991;
+}
+
+.spann:nth-child(2) {
+    top: 0px;
+    left: -50px;
+    z-index: 9990;
+}
+
+.spann:nth-child(3) {
+    top: 50px;
+    left: -75px;
+    z-index: 8999;
+
+}
+
+.circle:nth-child(2) {
+    background: green;
+    left: 25px;
+    z-index: 2;
+}
+
+.circle:nth-child(3) {
+    background-color: var(--secondary-color);
+    left: 75px;
+    z-index: 3;
+}
+
+.circle:nth-child(4) {
+    background: green;
+    left: 125px;
+    z-index: 4;
+}
+
+.circle:nth-child(5) {
+    background-color: var(--secondary-color);
+    left: 175px;
+    z-index: 5;
+}
+
+.circle:nth-child(6) {
+    background: green;
+    left: 225px;
+    z-index: 6;
+}
+
+.circle:nth-child(7) {
+    background-color: var(--secondary-color);
+    left: 275px;
+    z-index: 7;
+}
+
+.circle:nth-child(8) {
+    background: green;
+    left: 325px;
+    z-index: 8;
+}
+
+.circle:nth-child(9) {
+    background-color: var(--secondary-color);
+    left: 375px;
+    z-index: 9;
+}
+
+.circle:nth-child(10) {
+    background: green;
+    left: 425px;
+    z-index: 10;
+}
+
+.circle:nth-child(11) {
+    background: var(--secondary-color);
+    left: 475px;
+    z-index: 11;
+}
+
+.circle:nth-child(12) {
+    background: green;
+    left: 525px;
+    z-index: 12;
+}
+
+.circle:nth-child(13) {
+    background: var(--secondary-color);
+    left: 575px;
+    z-index: 13;
 }

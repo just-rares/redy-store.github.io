@@ -1,0 +1,203 @@
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    padding-inline: var(--navbar-padding-inline);
+    padding-block: var(--navbar-padding-block);
+    color: var(--navbar-text-color);
+    box-shadow: var(--navbar-shadow);
+    top: 0;
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-bar {
+    width: var(--search-bar-width);
+    height: var(--search-bar-height);
+    border-radius: var(--left-round-right-square-border-radius);
+    border: var(--search-bar-border);
+    background: var(--primary-color);
+    border-right: none;
+    padding: var(--search-bar-padding);
+}
+
+input[type="search"]:focus {
+    outline: none;
+    box-shadow: inset 0 0 5px var(--accent-color);
+}
+
+.btn-search {
+    height: calc(var(--search-bar-height) + 10px);
+    border: var(--search-bar-border);
+    border-left: 2px solid lightgray;
+    width: 40px;
+    border-radius: var(--left-square-right-round-border-radius);
+    color: gray;
+    background-color: var(--primary-color);
+    transition: all 200ms linear;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+    outline: none;
+    color: var(--accent-color);
+    width: 3rem;
+}
+
+header ul {
+    font-size: var(--font-size-xxl);
+    width: var(--navbar-links-width);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user,
+.favorites {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user p,
+.favorites p {
+    font-size: var(--font-size-md);
+}
+
+.user span:first-of-type {
+    font-size: var(--font-size-xs);
+}
+
+header a {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+}
+
+header a:nth-child(2) {
+    padding-block: 13px;
+    /* No idea why 13, but it makes it equal to the other links */
+}
+
+header a:hover,
+a:focus {
+    outline: 2px solid white;
+}
+
+
+/* Media */
+@media (min-width: 0px) {
+    :root {
+        --search-bar-width: 7rem;
+        --navbar-links-width: 100px;
+        --font-size-xxl: 1.5rem;
+    }
+
+    .user span {
+        display: none;
+    }
+
+    .favorites span {
+        display: none;
+    }
+
+    .menu {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 576px) {
+    :root {
+        --search-bar-width: 10rem;
+        --navbar-links-width: 200px;
+        --font-size-xxl: 1.5rem;
+    }
+
+    .menu {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --search-bar-width: 20rem;
+        --navbar-links-width: 200px;
+    }
+
+    .menu {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        --search-bar-width: 25rem;
+        --navbar-links-width: 400px;
+    }
+
+    .user span {
+        display: inline-block;
+    }
+
+    .favorites span {
+        display: inline-block;
+    }
+
+    .menu {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --search-bar-width: 35rem;
+        --navbar-links-width: 400px;
+    }
+
+    .user span {
+        display: inline-block;
+    }
+
+    .favorites span {
+        display: inline-block;
+    }
+
+    .menu {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1400px) {
+    :root {
+        --search-bar-width: 50rem;
+        --navbar-links-width: 400px;
+    }
+
+    .user span {
+        display: inline-block;
+    }
+
+    .favorites span {
+        display: inline-block;
+    }
+
+    .menu {
+        justify-content: space-evenly;
+    }
+}

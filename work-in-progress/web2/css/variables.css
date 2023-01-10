@@ -1,0 +1,50 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --primary-color: #E6ECF2;
+    --secondary-color: #004777;
+    --accent-color: #FF7700;
+    --bg-color: #E6ECF2;
+
+    /* Fonts */
+    --font-raleway: 'Raleway', sans-serif;
+    --navbar-text-color: whitesmoke;
+
+    /* Font Sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-xxl: 2rem;
+
+    /* Padding */
+    --navbar-padding-inline: 3em;
+    --navbar-padding-block: 10px;
+    --search-bar-padding: 20px;
+    /* Margins */
+
+    /* Widths & Heights */
+    --search-bar-width: 50rem;
+    --search-bar-height: 2rem;
+    --navbar-height: 85px;
+
+    /* Borders */
+    --search-bar-border: 1px solid gray;
+    --left-round-right-square-border-radius: 50px 0 0 50px;
+    --left-square-right-round-border-radius: 0 50px 50px 0;
+
+    /* Shadows */
+    --navbar-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    /* Gaps */
+    --nav-bar-icons-gap: 2em;
+}

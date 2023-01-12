@@ -133,3 +133,22 @@ input {
     z-index: 99;
     transform: translate(3px);
 }
+
+input,
+select,
+textarea {
+    transition: all 0.3s ease-in-out;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+    box-shadow: 0 0 5pt 0.5pt #4b4b4b;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: 0 0 5pt 2pt #4b4b4b;
+    outline-width: 0px;
+}

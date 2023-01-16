@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <link rel="stylesheet" href="css/addProducts.css">
+    <link rel="stylesheet" href="css/variables.css">
+</head>
+
+<body>
+
+<div class="form">
+    <form action="home.html">
+        <h1>Add Product</h1><br>
+        <fieldset>
+            <legend>Essential Information</legend>
+            <div>
+                <h2>Product Title:</h2>
+                <input type="text" name="name" placeholder="Insert title" id="title">
+
+                <h2>Description:</h2>
+                <input type="text" name="description" placeholder="Enter a description for your product" id="description">
+                
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Media</legend>
+            <div>
+                <h2>Product Images:</h2>
+                <input type="file" name="Image" id="image" accept="image">
+            </div>
+         </fieldset><br>
+
+         <fieldset>
+            <legend>Price</legend>
+            <div>
+                <h2>Product price</h2><br>
+                <label for="price">Price in euro:</label>
+                <input type="number" name="price" id="price" min="0" placeholder="EUR €">
+                
+            </div>
+         </fieldset>
+
+         <fieldset>
+            <legend>Inventory</legend>
+            <div>
+                <h2>Stock</h2><br>
+                <input type="number" name="quantiyy" id="quantity" min="0" placeholder="Amount in stock:">
+                
+            </div>
+         </fieldset><br>
+         <div class="buttonCenter">
+         <button class="btn">Create Listing</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>

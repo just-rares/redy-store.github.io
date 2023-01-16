@@ -27,7 +27,7 @@
     --font-size-xxl: 2rem;
 
     /* Padding */
-    --navbar-padding-inline: 20px;
+    --navbar-padding-inline: 3em;
     --navbar-padding-block: 10px;
     --search-bar-padding: 20px;
     /* Margins */
@@ -35,13 +35,16 @@
     /* Widths & Heights */
     --search-bar-width: 50rem;
     --search-bar-height: 2rem;
-    --navbar-links-width: 500px;
+    --navbar-height: 85px;
 
     /* Borders */
     --search-bar-border: 1px solid gray;
     --left-round-right-square-border-radius: 50px 0 0 50px;
     --left-square-right-round-border-radius: 0 50px 50px 0;
-    /* Shadows */
 
+    /* Shadows */
     --navbar-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    /* Gaps */
+    --nav-bar-icons-gap: 2em;
 }

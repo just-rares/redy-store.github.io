@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDY | Sign Up</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name="description" content="Description of the Page">
+    <meta name="author" content="Rares Burghelea & Eduard Faraon">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/variables.css">
+</head>
+
+<body>
+    <div class="panel">
+        <h1>
+            Add a new product
+        </h1>
+        <form action="">
+            <section class="inputs">
+                <div class="personal-info">
+                    <input type="text" name="title" placeholder="Product Title" required>
+                    <input type="text" name="name" placeholder="Name of the product" required>
+                    <input type="number" name="stock" placeholder="Stock of this product">
+                    <input type="text" name="category" placeholder="Category">
+                    <input type="number" name="price" placeholder="Price" required>
+                    <select name="currency" id="currency" style="width: 25%; flex-grow: 0">
+                        <option value="DLR">Dollars</option>
+                        <option value="EUR">Euros</option>
+                        <option value="GBP">GB Pounds</option>
+                    </select>
+                    <div class="checkbox">
+                        <input type="checkbox" name="promote" id="promote">
+                        Do you wish to promote this product?
+                    </div>
+                </div>
+                <div class="extra-info">
+                    <div class="inputfile">
+                        <label for="avatar">Upload pictures of the product</label>
+                        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                    </div>
+                    <textarea name="bio" id="bio" placeholder="Description of the product"></textarea>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <div class="checkbox">
+                        <input type="checkbox" name="TOS" id="TOS" required>
+                        I agree to the<a href="tos.html">Terms of Service</a>
+                    </div>
+                </div>
+            </section>
+            <a class="btn" href="account.html">Add new listing</a>
+        </form>
+    </div>
+    <div class="back">
+        <a href="account.html">
+            <div class="circle"></div>
+        </a>
+    </div>
+</body>
+
+</html>
